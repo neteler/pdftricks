@@ -255,7 +255,7 @@ namespace pdftricks {
             }
             var output_file = "";
             Gtk.FileChooserNative chooser_output = new Gtk.FileChooserNative (
-                _("Select the file to merge"), window, Gtk.FileChooserAction.SAVE,
+                _("Select the file to save"), window, Gtk.FileChooserAction.SAVE,
                 _("Save"),
                 _("Cancel"));
             chooser_output.do_overwrite_confirmation = true;

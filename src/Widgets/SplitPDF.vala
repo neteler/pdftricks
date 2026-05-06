@@ -261,7 +261,7 @@ namespace pdftricks {
             var file_pdf = filechooser.get_filename();
             var output_file = "";
             Gtk.FileChooserNative chooser_output = new Gtk.FileChooserNative (
-                _("Select the file to split"), window, Gtk.FileChooserAction.SAVE,
+                _("Select the file to save"), window, Gtk.FileChooserAction.SAVE,
                 _("Save"),
                 _("Cancel"));
             var split_filename = file_pdf.split("/");
